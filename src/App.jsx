@@ -2,7 +2,6 @@ import React from 'react';
 import NodeHero from './components/NodeHero';
 import NodeTiers from './components/NodeTiers';
 import NodePricing from './components/NodePricing';
-import HowToPurchase from './components/HowToPurchase';
 import WhitelistForm from './components/WhitelistForm';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <main>
         <NodeTiers />
         <NodePricing />
-        <HowToPurchase />
         <WhitelistForm />
         <section id="dashboard" className="py-16 bg-black">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
@@ -26,7 +24,7 @@ function App() {
         </section>
         <footer className="py-10 border-t border-white/10 bg-black text-center text-white/60 text-sm">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <p>© {new Date().getFullYear()} Oreon AI • Node Sales • Privacy • Terms</p>
+            <p>© {new Date().getFullYear()} OREON AI • Node Sales • Privacy • Terms</p>
           </div>
         </footer>
       </main>
